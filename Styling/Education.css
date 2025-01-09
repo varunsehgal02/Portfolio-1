@@ -1,0 +1,168 @@
+.line-v{
+    height: 179px;
+    width: 0px;
+    border:solid 1px #1e1e1e;
+   
+}
+#top{
+    margin-top: 60px;
+}
+.dim{
+    position: relative;
+    right: 6px;
+    top: 20px;
+}
+.top2{
+    margin-top: 43px;
+}
+.big-box-e{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
+.in-big-box-e{
+    width: 85%;
+    height: 800px;
+    display: flex;
+    justify-content: center; 
+    overflow: hidden;   
+}
+.line-e{
+    display: inline-block;
+}
+.box-e{
+    height: 300px;
+    width: 500px;
+    border-radius: 18px;
+    border:solid 1px #1e1e1e;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.in-small-box{
+    margin: 29px;
+    
+}
+.img-logo{
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+.text-e{
+    display: inline-block;
+    height: 150px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: none;
+}
+
+.text-h1{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+.location{
+    font-size: 15px;
+    font-weight: 200;
+    opacity: 80%;
+    margin-top: 5px;
+    background: transparent;
+}
+.tag-e{
+    margin-top: 20px;
+}
+.tag-e2{
+    border: #1e1e1e solid 1px;
+    height: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: 200;
+    text-align: center;
+   
+}
+.tag-e2:hover{
+    border: white 1px solid;
+    transition: all 0.6s;
+   
+}
+#C-e{
+    width: 30px;
+   
+}
+#c2-e{
+    
+    width: 45px;
+}
+#p-e{
+    
+    width: 75px;
+}
+#box-1{
+    margin-right: 20px;
+    margin-top: 71px;
+}
+#box-2{
+    margin-left: 20px;
+    margin-top: 400px;
+}
+#line-1{
+    margin-left: 12px;
+}
+#html-t{
+    width: 60px;
+}
+#css-e{
+    width: 50px;
+}
+#js-e{
+    width: 110px;
+}
+#r-e{
+    width: 70px;
+}
+#rn-e{
+    margin-top: 10px;
+    width: 130px;
+}
+#juet{
+    background-image: url(../Image/juet.webp);
+    background-size: 65px;
+}
+#skr{
+    background-image: url(../Image/Screenshot\ 2024-07-19\ 032606.png);
+}
+.glow{
+    backdrop-filter: blur(45px);
+    overflow: hidden;
+    position: relative;
+    background: transparent;
+   
+    
+}
+.glow::before{
+    content: '';
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%,-50%);
+    height:850px;
+    width: 850px;
+    background: radial-gradient(var(--clar),transparent,transparent) ;
+    transition:0.5s ,top 0s,left 0s ;
+    opacity: 0;
+}
+.glow:hover::before{
+    opacity: 32%;
+  
+}
+.glow::after{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0,0.4);
+   
+}
